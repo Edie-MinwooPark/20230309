@@ -261,7 +261,7 @@ h3{
 
 .topbannerimg2 , .longpic{
     object-fit: cover;
-    width: 100vw;
+    width: 180%;
 }
 
 .grayline{
@@ -432,3 +432,24 @@ h3{
     width: 710px;
     height: 30px;
 }
+
+@media screen and (max-width:992px){
+    html{
+      font-size:14px;
+    }
+  }
+  @media screen and (max-width:768px){
+    html{
+      font-size:13px;
+    }
+  }
+  @media screen and (max-width:576px){
+    html{
+      font-size:12px;
+    }
+  }
+  @media screen and (max-width:400px){
+    html{
+      font-size:11px;
+    }
+  }
